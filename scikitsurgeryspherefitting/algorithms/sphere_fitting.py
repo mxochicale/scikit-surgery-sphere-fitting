@@ -20,7 +20,7 @@ def fit_sphere_least_squares(x_values, y_values, z_values, initial_parameters):
     return leastsq(_calculate_residual_sphere, initial_parameters,
                    args=(x_values, y_values, z_values))
 
-def _calculate_residual_sphere(parameters, x_values, y_values , z_values):
+def _calculate_residual_sphere(parameters, x_values, y_values, z_values):
     """
     Calculates the residual error for an x,y,z coordinates, fitted
     to a sphere with centre and radius defined by the parameters tuple
