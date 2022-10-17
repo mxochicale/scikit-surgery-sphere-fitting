@@ -1,7 +1,7 @@
 # coding=utf-8
 
 """Hello world demo module"""
-from scikit-surgery-sphere-fitting.algorithms import addition, multiplication
+from scikitsurgeryspherefitting.algorithms import addition, multiplication
 
 def run_demo(input_x, input_y, multiply, verbose):
     """ Run the application """

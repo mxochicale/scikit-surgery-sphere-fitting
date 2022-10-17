@@ -4,8 +4,8 @@
 
 
 import argparse
-from scikit-surgery-sphere-fitting import __version__
-from scikit-surgery-sphere-fitting.ui.scikit-surgery-sphere-fitting_demo import run_demo
+from scikitsurgeryspherefitting import __version__
+from scikitsurgeryspherefitting.ui.scikitsurgeryspherefitting_demo import run_demo
 
 
 def main(args=None):
