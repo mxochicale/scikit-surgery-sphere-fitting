@@ -9,12 +9,13 @@ if __name__ == "__main__" and not __package__:
     # i.e. "python scikit-surgery-sphere-fitting", we have to explicitly set the
     # module name and append the parent directory to the sys.path (see PEP 366)
     from os import path
+
     __package__ = "scikit-surgery-sphere-fitting"  # pylint: disable=redefined-builtin
     sys.path.append(path.dirname(path.dirname(path.abspath(__file__))))
     sys.path.append(path.dirname(path.dirname(__file__)))
 
 # pylint: disable=wrong-import-position
-from scikit-surgery-sphere-fitting.ui.scikit-surgery-sphere-fitting_command_line import main
+from scikitsurgeryspherefitting.ui.scikitsurgeryspherefitting_command_line import main
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))

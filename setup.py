@@ -17,7 +17,7 @@ setup(
     description='scikit-surgery-sphere-fitting implements a least squares sphere fitting algorithm, to read a vtk poly data file, a config file, and outputs the fitted sphere',
     long_description=long_description,
     long_description_content_type='text/x-rst',
-    url='https://github.com/mxochicale/scikit-surgery-sphere-fitting',
+    url='https://github.com/mxochicale/sksurgeryspherefitting',
     author='Miguel Xochicale',
     author_email='YOUR-EMAIL@ucl.ac.uk',
     license='BSD-3 license',
@@ -52,11 +52,12 @@ setup(
 
     install_requires=[
         'numpy',
+        'scipy'
     ],
 
     entry_points={
         'console_scripts': [
-            'scikit-surgery-sphere-fitting=scikit-surgery-sphere-fitting.__main__:main',
+            'sksurgeryspherefitting=sksurgeryspherefitting.__main__:main',
         ],
     },
 )
