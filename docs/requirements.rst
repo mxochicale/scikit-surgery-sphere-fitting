@@ -6,9 +6,10 @@
 Requirements for scikit-surgery-sphere-fitting
 ===============================================
 
-This is the software requirements file for scikit-surgery-sphere-fitting, part of the SNAPPY project. 
-The requirements listed below should define what scikit-surgery-sphere-fitting does. 
-Each requirement can be matched to a unit test that checks whether the requirement is met.
+This is the software requirements file for scikit-surgery-sphere-fitting, part of the
+SNAPPY project. The requirements listed below should define
+what scikit-surgery-sphere-fitting does. Each requirement can be matched to a unit test that
+checks whether the requirement is met.
 
 Requirements
 ~~~~~~~~~~~~
@@ -23,12 +24,7 @@ Requirements
 +------------+--------------------------------------------------------+-------------------------------------+
 |    0002    |  Package has a version number                          |  No test yet, handled by git.       |
 +------------+--------------------------------------------------------+-------------------------------------+
-|    0003    |  Provides a function to fit a sphere to a list of      |                                     |
-|            |  3 dimensional points                                  |                                     |
-+------------+--------------------------------------------------------+-------------------------------------+
-|    0004    |  Provides a command line application                   |                                     |
-+------------+--------------------------------------------------------+-------------------------------------+
-|    0005    |  What else ??                                          |                                     |
-+------------+--------------------------------------------------------+-------------------------------------+
+
+
 
 

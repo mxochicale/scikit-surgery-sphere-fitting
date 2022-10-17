@@ -2,22 +2,22 @@
 
 """scikit-surgery-sphere-fitting tests"""
 
-#from scikit-surgery-sphere-fitting.ui.scikit-surgery-sphere-fitting_demo import run_demo
+# from sksurgeryspherefitting.ui.sksurgeryspherefitting_demo import run_demo
 from scikitsurgeryspherefitting.algorithms import sphere_fitting
-
 import numpy
 
-# Pytest style
-#def test_using_pytest_scikit-surgery-sphere-fitting():
-#    """First test"""
-#    #pylint:disable=invalid-name
-#    x = 1
-#    y = 2
-#    verbose = False
-#    multiply = False
 #
-#    expected_answer = 3
-#    assert run_demo(x, y, multiply, verbose) == expected_answer
+# # Pytest style
+# def test_using_pytest_sksurgeryspherefitting():
+#     """First test"""
+#     #pylint:disable=invalid-name
+#     x = 1
+#     y = 2
+#     verbose = False
+#     multiply = False
+#
+#     expected_answer = 3
+#     assert run_demo(x, y, multiply, verbose) == expected_answer
 
 
 def test_fit_sphere_least_squares():
