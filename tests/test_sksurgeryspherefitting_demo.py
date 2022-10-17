@@ -2,7 +2,7 @@
 
 """scikit-surgery-sphere-fitting tests"""
 
-from sksurgeryspherefitting.ui.sksurgeryspherefitting_demo import run_demo
+from scikitsurgeryspherefitting.ui.scikitsurgeryspherefitting_demo import run_demo
 
 def test_fit_sphere_least_squares_demo():
     model_name = 'data/CT_Level_1.vtp'

@@ -52,7 +52,9 @@ setup(
 
     install_requires=[
         'numpy',
-        'scipy'
+        'scipy',
+        'vtk',
+        'scikit-surgeryvtk'
     ],
 
     entry_points={

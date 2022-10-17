@@ -2,9 +2,9 @@
 
 """scikit-surgery-sphere-fitting tests"""
 
+import numpy
 # from sksurgeryspherefitting.ui.sksurgeryspherefitting_demo import run_demo
 from scikitsurgeryspherefitting.algorithms import sphere_fitting
-import numpy
 
 #
 # # Pytest style

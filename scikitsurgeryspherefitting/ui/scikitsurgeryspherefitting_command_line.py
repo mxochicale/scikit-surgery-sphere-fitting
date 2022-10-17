@@ -6,7 +6,6 @@ import argparse
 from scikitsurgeryspherefitting import __version__
 from scikitsurgeryspherefitting.ui.scikitsurgeryspherefitting_demo import run_demo
 
-
 def main(args=None):
     """Entry point for scikit-surgery-sphere-fitting application"""
 

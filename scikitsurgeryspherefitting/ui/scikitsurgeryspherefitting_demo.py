@@ -3,8 +3,7 @@
 """Uses sphere fitting to fit to vtk model"""
 import vtk
 from sksurgeryvtk.models.vtk_surface_model import VTKSurfaceModel
-from sksurgeryspherefitting.algorithms import sphere_fitting
-
+from scikitsurgeryspherefitting.algorithms import sphere_fitting
 
 def run_demo(model_file_name, output=""):
     """ Run the application """
