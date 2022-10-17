@@ -124,7 +124,7 @@ deploy pip to PyPI:
 
   environment:
     name: PyPI
-    url: https://pypi.python.org/pypi/scikit-surgery-sphere-fitting
+    url: https://test.pypi.python.org/pypi/scikit-surgery-sphere-fitting
 
   tags:
     - pip-production
